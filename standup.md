@@ -1,6 +1,6 @@
-#Daily StandUp Meeting
-##What did I accomplish yesterday?
+## Daily StandUp Meeting
+#### What did I accomplish yesterday?
 
-##What will I accomplish today?
+#### What will I accomplish today?
 
-##What issues are blocking me? 
+#### What issues are blocking me? 
