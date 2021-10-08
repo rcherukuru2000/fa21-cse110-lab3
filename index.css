@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+* {
+    background-color: #f4e9f7;
+    box-sizing: border-box;
+  }
+header {
+    /* CSS for the header*/
+    /*color:hsla(272, 79%, 76%, 0.95);*/
+    color: hsla(289, 67%, 46%, 0.95);
+    border-style: dashed;
+    border-color: #cc0099;
+    border-width: thick;
+    border-radius: 30px;
+}
+
+header h2 {
+    /*text-align: center;*/
+    margin-bottom: -.4em;
+}
+
+header h1 {
+    /*text-align: center;*/
+    text-decoration: underline;
+    margin-bottom: -10Q;
+    font-size: 30px;
+    font-family: 'Akronim', cursive;
+}
+
+header h1, header h2, header h3 {
+    text-align: center;
+}
+
+header h3 {
+    /*text-align: center;*/
+    text-decoration: underline wavy;
+}
+
+header nav h4 {
+    text-decoration: underline dotted;
+    margin-left: .6cm;
+    margin-bottom: -3.3mm;
+    margin-right: .6cm;
+    margin-top: .5cm;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+}
+
+#attend,
+#unfin,
+#fin,
+#com,
+#agen {
+    margin: auto;
+    padding: 15px 10px 15px 10px;
+    color: #cc0099;
+
+}
+
+#attend h3,
+#unfin h3,
+#fin h3,
+#com h3,
+#agen h3 {
+    text-align: justify;
+    color: hsla(289, 67%, 46%, 0.95);
+    margin: 1vw 10vw 2vh 1vh;
+
+}
+
+#attend p {
+    display: inline;
+}
+
+#fin img {
+    border-color: #cc0099;
+    border-style: dashed;
+    display: block;
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    max-height: 50%;
+    position: sticky;
+    
+
+}
+
+#fin img:hover {
+    box-shadow: 0 0 22px 1px hsla(289, 67%, 46%, 0.95);
+}
+
+
+.btn {
+    display: inline-block;
+    background: hsla(289, 67%, 46%, 0.95);
+    color: black;
+    padding: 8px 30px;
+    margin: auto;
+    border-radius: 30px;
+    text-decoration: solid;
+    font-size: 1vw;
+    transition: background 0.5s;
+    position: relative;
+}
+
+.btn:hover {
+    background: #cc0099;
+    color: white;
+}
+
+a:active {
+    color: #cc0099;
+}
+
+.container1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 10px;
+}
+.container1 div{
+    border: 1px #cc0099 solid;
+    padding: auto;
+    
+}
+.box1{
+    flex: 1;
+    order: 2;
+
+}
+.box2{
+    flex: 1;
+    order: 1;
+
+}
+
+.box3{
+    flex: 1;
+    order: 3;
+}
+.box3 img{
+    width: 100%;
+    height:70%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-items: stretch;
+    
+}
+.grid-container div{
+    justify-self: center;
+    grid-area: auto;
+}
+
+
+
+footer {
+    margin-top: .3cm;
+    border-style: dotted;
+    border-color: #cc0099;
+    border-width: thick;
+    border-radius: 30px;
+    color: hsla(289, 67%, 46%, 0.95);
+    text-align: center;
+
+}
