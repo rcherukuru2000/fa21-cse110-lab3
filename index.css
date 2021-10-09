@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 * {
     background-color: #f4e9f7;
     box-sizing: border-box;
@@ -68,10 +70,21 @@ header nav h4 {
     margin: 1vw 10vw 2vh 1vh;
 
 }
+h1 + h2 {
+    font-family: 'Birthstone', cursive;
+}
+h3 + p {
+    font-family: 'Nunito', sans-serif;
+}
+
+img ~ p {
+    color: blue;
+}
 
 #attend p {
     display: inline;
 }
+
 
 #fin img {
     border-color: #cc0099;
@@ -109,6 +122,10 @@ header nav h4 {
 .btn:hover {
     background: #cc0099;
     color: white;
+}
+
+a[href*="www"] {
+    color: black;
 }
 
 a:active {
@@ -162,6 +179,16 @@ a:active {
     grid-area: auto;
 }
 
+p.motiv {
+    text-decoration: underline double;
+}
+
+@media all and (max-width: 700px) {
+    * {
+      background-color: lightblue;
+    }
+  }
+
 
 
 footer {
@@ -172,5 +199,8 @@ footer {
     border-radius: 30px;
     color: hsla(289, 67%, 46%, 0.95);
     text-align: center;
+}
 
+footer p > b {
+    color: blue;
 }
